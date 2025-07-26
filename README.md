@@ -20,3 +20,21 @@ The project follows a **modular test structure** and demonstrates both **functio
 
 ## 📂 Project Structure
 
+```text
+selenium-python-ecommerce-automation/
+│
+├── conftest.py                 # PyTest setup and teardown
+├── requirements.txt            # Dependencies
+├── README.md                   # Project documentation
+│
+├── tests/                      # All test cases
+│   ├── test_login.py
+│   ├── test_product_search.py
+│   ├── test_add_to_cart.py
+│   └── test_contact_form.py
+│
+└── pages/                      # Page Object Model (POM) classes
+    ├── base_page.py
+    ├── login_page.py
+    ├── product_page.py
+    └── contact_page.py
